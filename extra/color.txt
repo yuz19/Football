@@ -1,0 +1,58 @@
+#fec211 yellow
+#0F77C3 blue
+#55042b rouge
+
+
+Zerzømiya ja_JP: Japanese
+ko_KR: Korean
+zh_CN: Chinese
+zh_TW: Taiwanese
+es_ES: Spanish (Spain)
+es_MX: Spanish (Latin America)
+en_US: English (alternatives en_GB, en_AU)
+fr_FR: French
+Zerzømiya de_DE: German
+it_IT: Italian
+pl_PL: Polish
+ro_RO: Romanian
+el_GR: Greek
+pt_BR: Portuguese
+hu_HU: Hungarian
+ru_RU: Russian
+tr_TR: Turkish
+
+
+
+<div class="sound">
+
+    <audio id="aud" src="sounds/intro.mp3" controls autoplay loop> </audio> 
+    
+    
+    <svg width="60" height="60" viewBox="0 0 74 60" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M58.4615 37.5V9.99998C58.4593 9.62447 58.3531 9.25417 58.1507 8.91658C57.9483 8.579 57.6549 8.2828 57.2922 8.04998C56.9348 7.81503 56.5171 7.64816 56.0698 7.56164C55.6225 7.47511 55.157 7.47113 54.7076 7.54998L27.0153 12.55C26.3317 12.6752 25.7212 12.9864 25.2847 13.4319C24.8483 13.8774 24.6122 14.4306 24.6153 15V35.85C22.5148 35.0443 20.1494 34.8137 17.8739 35.1928C15.5984 35.5719 13.5356 36.5403 11.9948 37.9526C10.4541 39.365 9.51852 41.1452 9.32849 43.0261C9.13846 44.9071 9.7042 46.7874 10.9408 48.385C12.1775 49.9826 14.0184 51.2114 16.1873 51.8869C18.3562 52.5624 20.7363 52.6483 22.9704 52.1317C25.2045 51.6151 27.1722 50.5238 28.5783 49.0216C29.9845 47.5194 30.7532 45.6872 30.7692 43.8C30.801 43.367 30.801 42.9329 30.7692 42.5V17L52.3076 13.125V30.85C50.2059 30.0438 47.839 29.8134 45.5624 30.1933C43.2858 30.5733 41.2224 31.5431 39.682 32.9571C38.1416 34.3712 37.2074 36.1531 37.0197 38.0353C36.832 39.9175 37.401 41.7984 38.6411 43.3955C39.8813 44.9925 41.7257 46.2196 43.8973 46.8924C46.0689 47.5651 48.4506 47.6473 50.6846 47.1265C52.9186 46.6057 54.8844 45.5101 56.2867 44.0042C57.689 42.4983 58.4521 40.6633 58.4615 38.775C58.4907 38.3503 58.4907 37.9246 58.4615 37.5Z" fill="#231F20"/>
+        </svg>
+        
+</div>     
+</div>  
+
+/* sound and profil*/
+.sound{
+    
+     
+    position: absolute;
+    background-color: #82CD1B;
+    width: 60px;
+    height: 60px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    left: 90%;
+    margin: 50px;
+}
+.sound  audio{
+    display: none;
+}    <form  >
+                <input type="text" id="pseudo" name="pseudo"  placeholder="Pseudo">
+                <a href="index.html" id="valider" >Valider</a>
+            </form>

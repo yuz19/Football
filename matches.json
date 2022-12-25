@@ -1,0 +1,22 @@
+[
+    {
+            "equipe1":"Fc barca",
+             "equipe2":"Real madrid",
+             "equipe1Img":"images/equipe/barcelona_logo_PNG1.png",
+             "equipe2Img":"images/equipe/Real_madrid_logo_PNG1.png",
+             "scores":[3,1]
+                            
+                
+     } ,
+     {
+        "equipe1":"Arsenal",
+         "equipe2":"Chelsea",
+         "equipe1Img":"images/equipe/arsenal_logo_PNG1.png",
+         "equipe2Img":"images/equipe/Chelsea_logo_PNG1.png",
+         "scores":[3,1]
+                        
+            
+    }
+ 
+  
+ ]

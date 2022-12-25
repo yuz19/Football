@@ -1,0 +1,307 @@
+*,::after,::before{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+body{
+    background-image: url('images/stade.png');
+    background-size: cover;
+    
+    width: 100%;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #fff;
+}
+main{
+    height: 100vh;
+    overflow-y: hidden;
+}
+.menu{
+ 
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+}
+.menu a{
+    text-decoration: none;
+    color: #fff;
+}
+.card{ border-radius: 8px;
+   background-color: #0F77C3; 
+   cursor: pointer;height: 471px;
+}
+
+.play{
+    width: 40%;
+    
+    
+    float: right;    
+}
+.play h1{
+        font-size: 50px;
+}
+.play img{
+    width: 100%;
+    height: 320px;
+    object-fit: cover;
+    border-radius: 8px 8px 0px 0px;
+}
+.play div{
+    padding: 20px;
+    
+    height: 100px;
+    line-height: 4em;
+}
+.play a:hover>img{
+    filter: blur(0.8px);
+}
+.play:hover{
+  
+    background-color: #0764a7; 
+ 
+  
+}
+.droit{
+    width: 50%;
+}
+.matches {
+    position: relative;
+    height: 100%;
+    
+    overflow: hidden;
+}
+ 
+.matches .messi{
+    
+    width: 490px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    left: 330px;   
+    background: url("images/messi.png");
+    background-size: cover;
+    
+}
+.matches .ronaldo{
+    z-index:1;
+    width: 401px;
+    height: 480px;
+    position: absolute;
+    top: 0;
+    
+    background: url("images/ronaldo.png");
+    background-size: cover;
+    
+}
+.text_hidden{
+ 
+    position: absolute;
+    font-size: 30px;
+    background-color: rgba(0, 0, 0, 0.399);
+    width: 100%;
+    height: 100%;
+    z-index: 9999;
+    transform: translateX(-999px);
+    text-align: center;
+    padding: 15% 0;
+
+}
+ 
+.matches:hover>.text_hidden{
+    display:block;
+    transform: translateX(0px);
+  
+    transition: all 0.3s;
+}
+ 
+.matches h1{
+    position: relative;
+    z-index: 999;
+    font-size: 100px;
+    text-align: center;
+    padding: 20%;
+    color: #fec211;
+ 
+}
+ 
+/******************play.html*******************/
+
+.menu_play{
+    height: auto;
+    width: 800px;
+    margin:  100px auto;
+    padding: 50px 0;
+    display: flex;
+     gap: 30px;
+   
+    flex-direction: column;
+    align-items: center; 
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(10px);
+    background-color: rgba(255, 255, 255, 0.5);  
+    
+   color: #000;
+   font-size: 25px;
+   overflow: hidden;
+}
+:is(.reponse div,.menu_play .question)::first-letter{
+    text-transform: uppercase;
+}
+.menu_play .question{
+     
+    padding: 20px;
+ 
+    width: 80%;
+     
+    text-align: center;
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    border-radius: 5px;font-size: 30px;
+}
+.menu_play .reponse{
+ 
+    margin:10px 80px 0 80px;
+    gap: 30px;    
+    display:  flex;
+    flex-wrap:wrap; 
+   
+    justify-content: center;
+}
+.reponse div{
+    background-color: #0F77C3;
+    width: 300px;
+    padding: 5px 10px 10px 18px;
+    border-radius: 8px;
+     color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+}
+.menu_play button{
+    width: 640px;
+    height: 50px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    font-weight: bold;
+    color: #fec211;
+    background-color: #2f3030;
+}
+button:hover{
+    background-color: #474747;
+}
+.menu_play   .chose{
+    background-color: #0bbdb2;
+    
+}
+.menu_play   .correct{
+    background-color: #078535;
+
+}
+.menu_play   .wrong{
+    background-color: #952708;
+
+}
+/*************home.html************/
+.home{
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
+    background-color: rgba(255, 255, 255, 0.006);  
+
+}
+.home .right{
+    background: rgb(149,39,8);
+    background: linear-gradient(  #952708 4% ,#56042C 40%, #191654 100% );
+    width: 50%;
+    height: 100vh;
+    float: right;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+ 
+
+.home .right img{
+    width: 500px;
+
+}
+.home .right h1{
+    color: #fec211;
+}
+.home .left {
+    width: 50%;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.home .left form{
+    display: inline-flex;
+}
+.home .left input[type="text"]{
+    height: 40px;
+    width: 300px;
+    outline: none;
+    border: none;
+    font-size: 20px;
+    padding: 8px;
+}
+.home .left #valider{
+    background-color: #55042b;
+    border: none;
+    height: 41px;
+    width: 120px;
+    color: #fec211;
+    font-size: 20px;
+    text-align: center;
+    padding: 5px;
+}
+
+/********matches.html*****/
+.matches_c{
+    width: 80%;
+    height: auto;
+    margin: 100px auto;
+    -webkit-backdrop-filter: blur(10px);
+    backdrop-filter: blur(2px);
+    background-color: #56042cb8;  
+    padding:50px;
+  
+}
+.match{
+    background-color: #191654;
+    width: 95%;
+    
+    margin: 0 auto 20px auto;
+    color: #000;
+    border-bottom: 4px solid #fec211;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.match h2{
+    color: #fff;
+    font-size: 30px;
+
+}
+.match h1{
+    color: yellow;
+    font-size: 40px;
+}
+.match img{
+    width: 150px;
+}
+.match .equipe1,.match .equipe2{
+    width: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    gap:10%;
+}
+.match .equipe2{
+    flex-direction: row-reverse;
+}

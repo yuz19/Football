@@ -1,0 +1,22 @@
+[
+   {
+           "question":"quel equipe national a gagner la coupe du monde 2022",
+            "reponse":"argentine",
+            "proposition":["argentine","france","maroc","brazil"]
+               
+       
+    },   
+    {
+        "question":"alger?",
+         "reponse":"d",
+         "proposition":["argentdddine","d","maroc","brazdil"]
+
+    },
+    {
+        "question":"quel equipe national a gagner la coupe d'afrique 2022",
+        "reponse":"algerie",
+        "proposition":["maroc","algerie","tunisie","egypte"]
+    }
+
+ 
+]
